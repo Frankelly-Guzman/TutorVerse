@@ -35,7 +35,3 @@ This project is ongoing, and we have plans to refresh it using React. We are exc
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code, subject to the terms and conditions specified in the license.
-
----
-
-Feel free to make further updates and modifications to the README as your project progresses and evolves.
