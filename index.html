@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TutorVerse</title>
+    <link
+      rel="icon"
+      href="TutorVerse-logos/TutorVerse-logos_white_cropped.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#home">TutorVerse</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark mr-2" id="theme-button">🌙</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark mr-2" id="reduce-motion-button">
+              Reduce Motion
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark mr-2">
+              <a href="./sign-up.html" class="sign-up">Sign Up</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark">
+              <a href="./sign-in.html" class="sign-in">Sign In</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="fade-in-section mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              class="img-fluid rounded mb-3"
+              src="TutorVerse-logos/TutorVerse-logos.jpeg"
+              alt="TutorVerse Logo"
+              height="300"
+              width="250"
+            />
+            <h3 id="header-slogan">
+              Unlocking Knowledge, One Student at a Time with TutorVerse.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>What is TutorVerse?</h2>
+            <p>
+              TutorVerse is an innovative web application designed to empower
+              college students by fostering a collaborative learning community.
+              At its core, TutorVerse serves as a platform where experienced
+              students can share their expertise in courses they have
+              successfully completed, providing invaluable support to their
+              peers. It's a dynamic space where knowledge meets camaraderie,
+              helping students excel in their academic journey.
+            </p>
+          </div>
+        </div>
+
+        <div class="row peer-teaching-container">
+          <!-- Peer Teaching About Section -->
+          <div class="col-md-6 peer-teaching-about-content">
+            <h2>What is Peer Teaching?</h2>
+            <p>
+              Peer teaching is a form of collaborative learning where students
+              help each other to understand and master academic content. In peer
+              teaching, one student, known as the "peer tutor," provides
+              academic assistance to another student, referred to as the "tutee"
+              or "learner".
+            </p>
+          </div>
+
+          <!-- Peer Teaching Video Section -->
+          <div class="col-md-6 peer-teaching-video-content">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://youtube.com/embed/ScESS8dueLw?si=ZIEMMyt1lbOLw6xr"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h2>How can Peer Teaching Help me?</h2>
+            <img
+              class="Stock-image"
+              src="https://images.pexels.com/photos/4861395/pexels-photo-4861395.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="Stock Image of Students studying"
+            />
+            <p>
+              Peer teaching can be a highly effective method to help students
+              learn and succeed academically.
+            </p>
+            <!-- Carousel for List of Benefits -->
+            <div
+              id="benefits-carousel"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#benefits-carousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#benefits-carousel" data-slide-to="1"></li>
+                <li data-target="#benefits-carousel" data-slide-to="2"></li>
+                <!-- Add more indicators as needed -->
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <ul>
+                    <li>
+                      <b>Enhanced Understanding:</b> Peer tutoring deepens
+                      students' understanding of the material.
+                    </li>
+                    <li>
+                      <b>Personalized Support:</b> Tailored help for individual
+                      learning needs.
+                    </li>
+                    <li>
+                      <b>Increased Engagement:</b> More comfortable learning
+                      environment leads to higher engagement.
+                    </li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul>
+                    <li>
+                      <b>Builds Confidence:</b> Boosts both tutor and tutee
+                      confidence.
+                    </li>
+                    <li>
+                      <b>Active Learning:</b> Encourages active participation
+                      and problem-solving.
+                    </li>
+                    <li>
+                      <b>Diverse Perspectives:</b> Offers varied approaches to
+                      learning.
+                    </li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul>
+                    <li>
+                      <b>Communication Skills:</b> Develops strong interpersonal
+                      skills.
+                    </li>
+                    <li>
+                      <b>Stress Reduction:</b> Reduces academic stress and
+                      anxiety.
+                    </li>
+                    <li>
+                      <b>Responsibility:</b> Promotes accountability in teaching
+                      and learning.
+                    </li>
+                  </ul>
+                </div>
+                <!-- Add more carousel items as needed -->
+              </div>
+
+              <a
+                class="carousel-control-prev"
+                href="#benefits-carousel"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#benefits-carousel"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Articles Section -->
+    <section id="articles" class="fade-in-section">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2>News Articles</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 offset-md-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Teach One, Save One: The Unlimited Power of Peer Education
+                </h3>
+                <p class="card-subtitle mb-2 text-muted">
+                  Published on Faculty Focus
+                </p>
+                <p class="card-text">
+                  Author: Jane Boyd, BS, Angela Dominelli, PhD, and John
+                  Polimeni, PhD
+                </p>
+                <p class="card-text">
+                  Read the full article
+                  <a
+                    href="https://www.facultyfocus.com/articles/course-design-ideas/teach-one-save-one-the-unlimited-power-of-peer-education/#:~:text=Students%20learning%20from%20one%20other,discussion%20seminars%20and%20collaborative%20projects."
+                    target="_blank"
+                    >here</a
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Sign Our Petition 📢</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="petition-container">
+              <p>
+                Imagine Sarah, a college freshman, struggling with a challenging
+                calculus course. Late nights, complex equations, and mounting
+                frustration had become her daily routine. Then, she discovered
+                TutorVerse. Through this remarkable platform, Sarah connected
+                with experienced students who had once navigated the same
+                turbulent academic waters. With their guidance and support,
+                Sarah's confidence grew, her understanding deepened, and her
+                grades improved. She wasn't alone anymore; she was part of a
+                supportive community where knowledge was freely shared, and
+                success was a collective goal. TutorVerse not only transformed
+                Sarah's academic journey but also left a lasting impact on her
+                life. This is the potential we see in TutorVerse - the power to
+                change individual stories, to turn hardships into victories, and
+                to make a profound difference in the lives of students like
+                Sarah. By signing this petition, you're helping us make this
+                vision a reality, ensuring that countless students can
+                experience the same transformative journey. Your support is a
+                vital part of this inspiring narrative, and together, we can
+                create a brighter future for students everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="petition-container">
+              <div class="signatures">
+                <p>🖊️ DJ from Ocala supports this.</p>
+                <p>🖊️ Amy from Gainesville supports this.</p>
+                <p>🖊️ Teresa from Orlando supports this.</p>
+                <p id="counter">
+                  🖊️ 3 people have signed this petition and support this cause.
+                </p>
+              </div>
+
+              <form id="sign-petition" title="sign-petition">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control mb-2" />
+                <label for="hometown">Hometown:</label>
+                <input type="text" id="hometown" class="form-control mb-2" />
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="form-control mb-3" />
+                <button id="sign-now-button" class="btn btn-primary">
+                  Sign Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer" class="fade-in-section mb-3">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <p class="col-md-4 mb-0 text-body-secondary">
+            © 2023 TutorVerse, Inc
+          </p>
+
+          <a
+            href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
